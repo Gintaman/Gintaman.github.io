@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" data-ng-app="App">
+<head>
+	<meta charset="UTF-8">
+	<title>Proof of Concept</title>
+	
+	<!--Ionic libraries-->
+	<link rel="stylesheet" href="lib/ionic/css/ionic.css">
+	<script src="lib/ionic/js/ionic.bundle.js"></script>
+	
+	<!--My stylesheets/js files-->
+	<link rel="stylesheet" href="css/style.css">
+	<script src="js/app.js"></script>
+	
+</head>
+<body data-ng-controller="AppCtrl">
+	<!--Main app-->
+	<ion-header-bar class="bar-balanced">
+		<h1 class="title">Lighthouse</h1>
+    	<button class="button" data-ng-click="refresh()"> 
+			<i class="icon ion-refresh"></i>
+		</button>
+	</ion-header-bar>
+	<ion-content>
+		<div class="card list">
+			<div class="item item-avatar-left">
+				<img src="img/ionic.png" alt="">
+				<h2>Fred</h2>
+				<p>Some Text</p>
+			</div>
+			<div class="item item-body">
+				<h1>Title</h1>
+				<p>Dolor exercitationem aperiam ex consectetur quas itaque beatae ratione fuga. Maiores quasi sint veniam distinctio laudantium nostrum voluptatem placeat. Magnam voluptatum alias eligendi id non voluptate possimus, eaque ullam eum.</p>
+
+			</div>
+		</div>
+	</ion-content>
+</body>
+</html>
